@@ -1,0 +1,61 @@
+.centerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 10px;
+    background-color: #bbf7e5;
+}
+
+.selectionCounter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.selectionText {
+    text-align: center;
+    font-size: 24px;
+    margin: 0px 10px;
+    color: #d34742;
+}
+
+.selectionButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.btn {
+    color: #2bb500;
+    padding: 12px 25px;
+    border: none;
+    background-color: unset;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.counters {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c5fdff;
+}
